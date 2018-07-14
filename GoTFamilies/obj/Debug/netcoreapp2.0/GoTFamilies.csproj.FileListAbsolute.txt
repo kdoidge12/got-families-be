@@ -1,0 +1,11 @@
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/bin/Debug/netcoreapp2.0/GoTFamilies.deps.json
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/bin/Debug/netcoreapp2.0/GoTFamilies.runtimeconfig.json
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/bin/Debug/netcoreapp2.0/GoTFamilies.runtimeconfig.dev.json
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/bin/Debug/netcoreapp2.0/GoTFamilies.dll
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/bin/Debug/netcoreapp2.0/GoTFamilies.pdb
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/obj/Debug/netcoreapp2.0/GoTFamilies.csprojResolveAssemblyReference.cache
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/obj/Debug/netcoreapp2.0/GoTFamilies.csproj.CoreCompileInputs.cache
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/obj/Debug/netcoreapp2.0/GoTFamilies.AssemblyInfoInputs.cache
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/obj/Debug/netcoreapp2.0/GoTFamilies.AssemblyInfo.cs
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/obj/Debug/netcoreapp2.0/GoTFamilies.dll
+/Users/kris/Desktop/GoTFamilies/GoTFamilies/obj/Debug/netcoreapp2.0/GoTFamilies.pdb
