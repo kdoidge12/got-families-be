@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
 
 namespace GoTFamilies.Controllers
 {
+    [EnableCors("AllowSpecificOrigin")]
     public class BaseController : Controller
     {
         [HttpGet]

@@ -29,6 +29,11 @@ namespace GoTFamilies
             {
                 c.SwaggerDoc("v1", new Info{Title="Game of Thrones", Version = "v1"});
             });
+            services.AddCors(
+                options=> options.AddPolicy("AllowSpecificOrigin",
+                            builder=>builder.WithOrigins("http://localhost:3000")
+                                            .AllowAnyMethod()
+                                            .AllowAnyOrigin()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +44,7 @@ namespace GoTFamilies
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors("AllowSpecificOrigin");
             app.UseMvc();
 
             app.UseSwagger();

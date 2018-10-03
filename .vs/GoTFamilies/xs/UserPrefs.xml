@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{518767C9-D39C-4488-81ED-5922867287C7}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GoTFamilies Status">
+    <Files>
+      <File FileName="GoTFamilies/Controllers/Families/FamiliesController.cs" Line="1" Column="1" />
+      <File FileName="GoTFamilies/Controllers/Persons/PersonsController.cs" Line="37" Column="25" />
+      <File FileName="GoTFamilies/Startup.cs" Line="34" Column="61" />
+      <File FileName="GoTFamilies/Program.cs" Line="1" Column="1" />
+      <File FileName="GoTFamilies/Controllers/BaseController.cs" Line="7" Column="31" />
+      <File FileName="GoTFamilies/Models/Domain/BaseRepo.cs" Line="1" Column="1" />
+      <File FileName="GoTFamilies/Models/Domain/Families/FamilyRepo.cs" Line="1" Column="1" />
+      <File FileName="GoTFamilies/Models/Domain/Persons/PersonRepo.cs" Line="22" Column="10" />
+      <File FileName="GoTFamilies Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GoTFamilies PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,14 @@
+/Users/kris/Desktop/GoTFamilies/TestGoT/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/kris/Desktop/GoTFamilies/TestGoT/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/kris/Desktop/GoTFamilies/TestGoT/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Users/kris/Desktop/GoTFamilies/TestGoT/bin/Debug/netcoreapp2.0/TestGoT.deps.json
+/Users/kris/Desktop/GoTFamilies/TestGoT/bin/Debug/netcoreapp2.0/TestGoT.runtimeconfig.json
+/Users/kris/Desktop/GoTFamilies/TestGoT/bin/Debug/netcoreapp2.0/TestGoT.runtimeconfig.dev.json
+/Users/kris/Desktop/GoTFamilies/TestGoT/bin/Debug/netcoreapp2.0/TestGoT.dll
+/Users/kris/Desktop/GoTFamilies/TestGoT/bin/Debug/netcoreapp2.0/TestGoT.pdb
+/Users/kris/Desktop/GoTFamilies/TestGoT/obj/Debug/netcoreapp2.0/TestGoT.csprojAssemblyReference.cache
+/Users/kris/Desktop/GoTFamilies/TestGoT/obj/Debug/netcoreapp2.0/TestGoT.csproj.CoreCompileInputs.cache
+/Users/kris/Desktop/GoTFamilies/TestGoT/obj/Debug/netcoreapp2.0/TestGoT.AssemblyInfoInputs.cache
+/Users/kris/Desktop/GoTFamilies/TestGoT/obj/Debug/netcoreapp2.0/TestGoT.AssemblyInfo.cs
+/Users/kris/Desktop/GoTFamilies/TestGoT/obj/Debug/netcoreapp2.0/TestGoT.dll
+/Users/kris/Desktop/GoTFamilies/TestGoT/obj/Debug/netcoreapp2.0/TestGoT.pdb

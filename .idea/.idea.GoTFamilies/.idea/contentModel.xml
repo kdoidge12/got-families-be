@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="GoTFamilies" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BaseController.cs" t="Include" />
+          <e p="Families" t="Include">
+            <e p="FamiliesController.cs" t="Include" />
+          </e>
+          <e p="Persons" t="Include">
+            <e p="PersonsController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="GoTFamilies.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="Data" t="Include">
+            <e p="Contracts" t="Include">
+              <e p="Families" t="Include" />
+              <e p="Persons" t="Include">
+                <e p="PersonDTO.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Families" t="Include">
+              <e p="Family.cs" t="Include" />
+            </e>
+            <e p="IBaseEntity.cs" t="Include" />
+            <e p="Persons" t="Include">
+              <e p="Person.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Domain" t="Include">
+            <e p="BaseRepo.cs" t="Include" />
+            <e p="Families" t="Include">
+              <e p="FamilyRepo.cs" t="Include" />
+            </e>
+            <e p="Persons" t="Include">
+              <e p="PersonRepo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="GoTFamilies.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="GoTFamilies.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TestGoT" t="IncludeRecursive">
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="TestGoT.AssemblyInfo.cs" t="Include" />
+              <e p="TestGoT.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TestGoT.csproj" t="IncludeRecursive" />
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_GoTFamilies.-1211403706.00" t="ExcludeRecursive" />
+  </component>
+</project>

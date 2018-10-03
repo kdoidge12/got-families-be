@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a80667bc-9091-48aa-9722-b7bc795fbe35" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/GoTFamilies/Controllers/Families/FamiliesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoTFamilies/Controllers/Families/FamiliesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoTFamilies/bin/Debug/netcoreapp2.0/GoTFamilies.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoTFamilies/bin/Debug/netcoreapp2.0/GoTFamilies.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoTFamilies/bin/Debug/netcoreapp2.0/GoTFamilies.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoTFamilies/bin/Debug/netcoreapp2.0/GoTFamilies.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoTFamilies/obj/Debug/netcoreapp2.0/GoTFamilies.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GoTFamilies/obj/Debug/netcoreapp2.0/GoTFamilies.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoTFamilies/obj/Debug/netcoreapp2.0/GoTFamilies.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GoTFamilies/obj/Debug/netcoreapp2.0/GoTFamilies.pdb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PersonsController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Persons/PersonsController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <marker date="1529971552919" expanded="false" signature="6:208" ph="..." />
+                <marker date="1529971552919" expanded="true" signature="243:857" ph="{...}" />
+                <marker date="1529971552919" expanded="true" signature="321:855" ph="{...}" />
+                <marker date="1529971552919" expanded="true" signature="395:452" ph="{...}" />
+                <marker date="1529971552919" expanded="true" signature="549:641" ph="{...}" />
+                <marker date="1529971552919" expanded="true" signature="733:849" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoTFamilies/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <marker date="1529724964983" expanded="false" signature="6:368" ph="..." />
+                <marker date="1529724964983" expanded="true" signature="391:1513" ph="{...}" />
+                <marker date="1529724964983" expanded="true" signature="418:1511" ph="{...}" />
+                <marker date="1529724964983" expanded="true" signature="477:540" ph="{...}" />
+                <marker date="1529724964983" expanded="true" signature="763:971" ph="{...}" />
+                <marker date="1529724964983" expanded="true" signature="844:959" ph="{...}" />
+                <marker date="1529724964983" expanded="true" signature="1159:1505" ph="{...}" />
+                <marker date="1529724964983" expanded="true" signature="1206:1283" ph="{...}" />
+                <marker date="1529724964983" expanded="true" signature="1375:1493" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoTFamilies/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="appsettings.Development.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoTFamilies/appsettings.Development.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="launchSettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoTFamilies/Properties/launchSettings.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoTFamilies/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1529691855693" expanded="true" signature="6:255" ph="..." />
+                <marker date="1529691855693" expanded="true" signature="278:599" ph="{...}" />
+                <marker date="1529691855693" expanded="true" signature="305:597" ph="{...}" />
+                <marker date="1529691855693" expanded="true" signature="358:416" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseRepo.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/BaseRepo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding>
+                <marker date="1529971430507" expanded="false" signature="6:66" ph="..." />
+                <marker date="1529971430507" expanded="true" signature="103:1068" ph="{...}" />
+                <marker date="1529971430507" expanded="true" signature="175:1066" ph="{...}" />
+                <marker date="1529971430507" expanded="true" signature="355:566" ph="{...}" />
+                <marker date="1529971430507" expanded="true" signature="614:676" ph="{...}" />
+                <marker date="1529971430507" expanded="true" signature="711:785" ph="{...}" />
+                <marker date="1529971430507" expanded="true" signature="833:927" ph="{...}" />
+                <marker date="1529971430507" expanded="true" signature="975:1060" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FamiliesController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Families/FamiliesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding>
+                <marker date="1535826069712" expanded="true" signature="6:183" ph="..." />
+                <marker date="1535826069712" expanded="true" signature="227:636" ph="{...}" />
+                <marker date="1535826069712" expanded="true" signature="307:634" ph="{...}" />
+                <marker date="1535826069712" expanded="true" signature="382:439" ph="{...}" />
+                <marker date="1535826069712" expanded="true" signature="561:628" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FamilyRepo.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Families/FamilyRepo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding>
+                <marker date="1529878964642" expanded="false" signature="6:83" ph="..." />
+                <marker date="1529878964642" expanded="true" signature="129:272" ph="{...}" />
+                <marker date="1529878964642" expanded="true" signature="178:270" ph="{...}" />
+                <marker date="1529878964642" expanded="true" signature="231:264" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonRepo.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+              <folding>
+                <marker date="1535826347001" expanded="true" signature="6:132" ph="..." />
+                <marker date="1535826347001" expanded="true" signature="177:640" ph="{...}" />
+                <marker date="1535826347001" expanded="true" signature="226:638" ph="{...}" />
+                <marker date="1535826347001" expanded="true" signature="278:314" ph="{...}" />
+                <marker date="1535826347001" expanded="true" signature="361:475" ph="{...}" />
+                <marker date="1535826347001" expanded="true" signature="533:623" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Persons/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TestGoT/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Controllers/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/IBaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Families/FamiliesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/BaseRepo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Families/FamilyRepo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Persons/PersonsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Contracts/Persons/PersonDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Families/Family.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/GoTFamilies/Models/Domain/IBaseRepo.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Models/Data/IBaseEntity.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Models/Data/Families.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Startup.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Controllers/PersonsController.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Models/Domain/Families/FamilyRepo.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Models/Data/Contracts/Persons/PersonDTO.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Models/Domain/BaseRepo.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Controllers/BaseController.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Controllers/Persons/PersonsController.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Models/Data/Persons/Person.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Models/Data/Families/Family.cs" />
+        <option value="$PROJECT_DIR$/TestGoT/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Controllers/Families/FamiliesController.cs" />
+        <option value="$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GoTFamilies (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GoTFamilies (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GoTFamilies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GoTFamilies (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GoTFamilies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GoTFamilies (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GoTFamilies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Families" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GoTFamilies (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GoTFamilies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Persons" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GoTFamilies (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GoTFamilies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GoTFamilies (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GoTFamilies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Domain" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GoTFamilies (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GoTFamilies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Families" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GoTFamilies (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GoTFamilies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Domain" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Persons" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GoTFamilies (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GoTFamilies" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/GoTFamilies/bin/Debug/netcoreapp2.0/GoTFamilies.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GoTFamilies" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/GoTFamilies/GoTFamilies.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a80667bc-9091-48aa-9722-b7bc795fbe35" name="Default" comment="" />
+      <created>1529691882169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529691882169</updated>
+      <workItem from="1529691883911" duration="1020000" />
+      <workItem from="1529695700345" duration="1246000" />
+      <workItem from="1529724695519" duration="463000" />
+      <workItem from="1529725189404" duration="468000" />
+      <workItem from="1529728317785" duration="5000" />
+      <workItem from="1529876686183" duration="3272000" />
+      <workItem from="1529970937450" duration="1047000" />
+      <workItem from="1530109055127" duration="2403000" />
+      <workItem from="1530237873256" duration="822000" />
+      <workItem from="1530372561169" duration="1141000" />
+      <workItem from="1531591276981" duration="236000" />
+      <workItem from="1535824633293" duration="1749000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13872000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928468" weight="0.32948717" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32848486" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" sideWeight="0.49928468" weight="0.32948717" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32848486" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32948717" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32848486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49904397" visible="true" weight="0.30472103" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="8" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.500956" side_tool="true" weight="0.4434907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Families/Family.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Persons/PersonsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1529971552919" expanded="false" signature="6:208" ph="..." />
+            <marker date="1529971552919" expanded="true" signature="243:857" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="321:855" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="395:452" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="549:641" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="733:849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/BaseRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <marker date="1529971430507" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529971430507" expanded="true" signature="103:1068" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="175:1066" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="355:566" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="614:676" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="711:785" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="833:927" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="975:1060" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1535826347001" expanded="true" signature="6:132" ph="..." />
+            <marker date="1535826347001" expanded="true" signature="177:640" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="226:638" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="278:314" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="361:475" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="533:623" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Persons/Person.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1529972327566" expanded="false" signature="6:136" ph="..." />
+            <marker date="1529972327566" expanded="true" signature="219:598" ph="{...}" />
+            <marker date="1529972327566" expanded="true" signature="490:592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Families/Family.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/IBaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1529692447429" expanded="true" signature="83:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Persons/PersonsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <marker date="1529971552919" expanded="false" signature="6:208" ph="..." />
+            <marker date="1529971552919" expanded="true" signature="243:857" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="321:855" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="395:452" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="549:641" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="733:849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/BaseRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <marker date="1529971430507" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529971430507" expanded="true" signature="103:1068" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="175:1066" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="355:566" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="614:676" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="711:785" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="833:927" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="975:1060" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1535826347001" expanded="true" signature="6:132" ph="..." />
+            <marker date="1535826347001" expanded="true" signature="177:640" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="226:638" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="278:314" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="361:475" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="533:623" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Persons/Person.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1529972327566" expanded="false" signature="6:136" ph="..." />
+            <marker date="1529972327566" expanded="true" signature="219:598" ph="{...}" />
+            <marker date="1529972327566" expanded="true" signature="490:592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Families/Family.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/IBaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1529692447429" expanded="true" signature="83:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Persons/PersonsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <marker date="1529971552919" expanded="false" signature="6:208" ph="..." />
+            <marker date="1529971552919" expanded="true" signature="243:857" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="321:855" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="395:452" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="549:641" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="733:849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/BaseRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1529971430507" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529971430507" expanded="true" signature="103:1068" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="175:1066" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="355:566" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="614:676" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="711:785" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="833:927" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="975:1060" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1535826347001" expanded="true" signature="6:132" ph="..." />
+            <marker date="1535826347001" expanded="true" signature="177:640" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="226:638" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="278:314" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="361:475" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="533:623" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Persons/Person.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1529972327566" expanded="false" signature="6:136" ph="..." />
+            <marker date="1529972327566" expanded="true" signature="219:598" ph="{...}" />
+            <marker date="1529972327566" expanded="true" signature="490:592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Families/Family.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/IBaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1529692447429" expanded="true" signature="83:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Persons/PersonsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <marker date="1529971552919" expanded="false" signature="6:208" ph="..." />
+            <marker date="1529971552919" expanded="true" signature="243:857" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="321:855" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="395:452" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="549:641" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="733:849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/BaseRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1529971430507" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529971430507" expanded="true" signature="103:1068" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="175:1066" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="355:566" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="614:676" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="711:785" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="833:927" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="975:1060" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1535826347001" expanded="true" signature="6:132" ph="..." />
+            <marker date="1535826347001" expanded="true" signature="177:640" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="226:638" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="278:314" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="361:475" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="533:623" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Persons/Person.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1529972327566" expanded="false" signature="6:136" ph="..." />
+            <marker date="1529972327566" expanded="true" signature="219:598" ph="{...}" />
+            <marker date="1529972327566" expanded="true" signature="490:592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Families/Family.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/IBaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1529692447429" expanded="true" signature="83:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Persons/PersonsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+          <folding>
+            <marker date="1529971552919" expanded="false" signature="6:208" ph="..." />
+            <marker date="1529971552919" expanded="true" signature="243:857" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="321:855" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="395:452" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="549:641" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="733:849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/BaseRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1529971430507" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529971430507" expanded="true" signature="103:1068" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="175:1066" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="355:566" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="614:676" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="711:785" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="833:927" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="975:1060" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1535826347001" expanded="true" signature="6:132" ph="..." />
+            <marker date="1535826347001" expanded="true" signature="177:640" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="226:638" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="278:314" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="361:475" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="533:623" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/IBaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1529692447429" expanded="true" signature="83:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Persons/Person.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1529972327566" expanded="false" signature="6:136" ph="..." />
+            <marker date="1529972327566" expanded="true" signature="219:598" ph="{...}" />
+            <marker date="1529972327566" expanded="true" signature="490:592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Families.cs" />
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Families/Family.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Contracts/Persons/PersonDTO.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <marker date="1529881270197" expanded="true" signature="80:183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/IBaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <marker date="1529692447429" expanded="true" signature="83:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Data/Persons/Person.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <marker date="1529972327566" expanded="false" signature="6:136" ph="..." />
+            <marker date="1529972327566" expanded="true" signature="219:598" ph="{...}" />
+            <marker date="1529972327566" expanded="true" signature="490:592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestGoT/UnitTest1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <marker date="1530372641898" expanded="false" signature="6:26" ph="..." />
+            <marker date="1530372641898" expanded="true" signature="74:149" ph="{...}" />
+            <marker date="1530372641898" expanded="true" signature="123:143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Controllers/BaseController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <marker date="1529878425907" expanded="false" signature="6:65" ph="..." />
+            <marker date="1529878425907" expanded="true" signature="100:318" ph="{...}" />
+            <marker date="1529878425907" expanded="true" signature="147:316" ph="{...}" />
+            <marker date="1529878425907" expanded="true" signature="212:310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1529691855693" expanded="true" signature="6:255" ph="..." />
+            <marker date="1529691855693" expanded="true" signature="278:599" ph="{...}" />
+            <marker date="1529691855693" expanded="true" signature="305:597" ph="{...}" />
+            <marker date="1529691855693" expanded="true" signature="358:416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <marker date="1529724964983" expanded="false" signature="6:368" ph="..." />
+            <marker date="1529724964983" expanded="true" signature="391:1513" ph="{...}" />
+            <marker date="1529724964983" expanded="true" signature="418:1511" ph="{...}" />
+            <marker date="1529724964983" expanded="true" signature="477:540" ph="{...}" />
+            <marker date="1529724964983" expanded="true" signature="763:971" ph="{...}" />
+            <marker date="1529724964983" expanded="true" signature="844:959" ph="{...}" />
+            <marker date="1529724964983" expanded="true" signature="1159:1505" ph="{...}" />
+            <marker date="1529724964983" expanded="true" signature="1206:1283" ph="{...}" />
+            <marker date="1529724964983" expanded="true" signature="1375:1493" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/BaseRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <marker date="1529971430507" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529971430507" expanded="true" signature="103:1068" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="175:1066" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="355:566" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="614:676" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="711:785" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="833:927" ph="{...}" />
+            <marker date="1529971430507" expanded="true" signature="975:1060" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Families/FamilyRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <marker date="1529878964642" expanded="false" signature="6:83" ph="..." />
+            <marker date="1529878964642" expanded="true" signature="129:272" ph="{...}" />
+            <marker date="1529878964642" expanded="true" signature="178:270" ph="{...}" />
+            <marker date="1529878964642" expanded="true" signature="231:264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Families/FamiliesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <marker date="1535826069712" expanded="true" signature="6:183" ph="..." />
+            <marker date="1535826069712" expanded="true" signature="227:636" ph="{...}" />
+            <marker date="1535826069712" expanded="true" signature="307:634" ph="{...}" />
+            <marker date="1535826069712" expanded="true" signature="382:439" ph="{...}" />
+            <marker date="1535826069712" expanded="true" signature="561:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Controllers/Persons/PersonsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <marker date="1529971552919" expanded="false" signature="6:208" ph="..." />
+            <marker date="1529971552919" expanded="true" signature="243:857" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="321:855" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="395:452" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="549:641" ph="{...}" />
+            <marker date="1529971552919" expanded="true" signature="733:849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoTFamilies/Models/Domain/Persons/PersonRepo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+          <folding>
+            <marker date="1535826347001" expanded="true" signature="6:132" ph="..." />
+            <marker date="1535826347001" expanded="true" signature="177:640" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="226:638" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="278:314" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="361:475" ph="{...}" />
+            <marker date="1535826347001" expanded="true" signature="533:623" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -13365,7 +13365,7 @@
       "projectName": "GoTFamilies",
       "projectPath": "/Users/kris/Desktop/GoTFamilies/GoTFamilies/GoTFamilies.csproj",
       "packagesPath": "/Users/kris/.nuget/packages/",
-      "outputPath": "/Users/kris/Desktop/GoTFamilies/GoTFamilies/obj/",
+      "outputPath": "/Users/kris/Desktop/GoTFamilies/GoTFamilies/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -13394,26 +13394,27 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "2.0"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "2.7.0-beta0001"
+          },
+          "Swashbuckle": {
+            "target": "Package",
+            "version": "5.6.0"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "2.5.0"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
-          },
-          "MongoDB.Driver": {
-            "target": "Package",
-            "version": "[2.7.0-beta0001, )"
-          },
-          "Swashbuckle": {
-            "target": "Package",
-            "version": "[5.6.0, )"
-          },
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "[2.5.0, )"
           }
         },
         "imports": [
