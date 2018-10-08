@@ -10,6 +10,7 @@ namespace GoTFamilies.Models.Data.Persons
         public Guid Id { get; set; }
         public string FirstName {get;set;}
         public string LastName { get; set; }
+        public string ImgPath { get; set; }
         public string Description { get; set; }
         public List<Family> Families { get; set; }
 
@@ -17,6 +18,7 @@ namespace GoTFamilies.Models.Data.Persons
         {
             FirstName = person.FirstName;
             LastName = person.LastName;
+            ImgPath = person.ImgPath;
         }
     }
 }
