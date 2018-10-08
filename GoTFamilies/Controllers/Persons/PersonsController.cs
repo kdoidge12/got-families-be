@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using GoTFamilies.Managers;
 using GoTFamilies.Models.Data.Contracts.Persons;
 using GoTFamilies.Models.Data.Persons;
 using GoTFamilies.Models.Domain.Persons;
@@ -11,18 +12,19 @@ namespace GoTFamilies.Controllers
 {
     [Route("/Persons")]
     [EnableCors("AllowSpecificOrigin")]
-    public class PersonsController : BaseController
+    public class PersonsController : BaseController<Person>
     {
-        private PersonRepo repo;
-        public PersonsController()
+        private PersonManager perMgr;
+        public PersonsController(BaseManager<Person> mgr) :base(mgr)
         {
-            repo = new PersonRepo();
+            perMgr = mgr as PersonManager;
         }
+
         [Route("/Person/{name}")]
         [HttpGet]
         public Person GetPerson(string name)
         {
-            Person get = repo.FindPerson(name);
+            Person get = perMgr.FindPerson(name);
             return get;
         }
         [Route("/newPerson")]
@@ -30,7 +32,7 @@ namespace GoTFamilies.Controllers
         public void Post(PersonDTO person)
         {
             Person _person = new Person(person);
-            repo.Insert(_person);
+            perMgr.Insert(_person);
             
         }
 
@@ -38,7 +40,7 @@ namespace GoTFamilies.Controllers
         [HttpGet]
         public List<Person> ReturnAll()
         {
-            return repo.FindAll();
+            return perMgr.FindAll();
         }
     }
 }

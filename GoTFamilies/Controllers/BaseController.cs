@@ -1,16 +1,21 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Cors;
+using GoTFamilies.Models.Data;
+using GoTFamilies.Managers;
 
 namespace GoTFamilies.Controllers
 {
     [EnableCors("AllowSpecificOrigin")]
-    public class BaseController : Controller
+    public abstract class BaseController<TType> : Controller 
+        where TType:IBaseEntity
     {
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly BaseManager<TType> mgr;
+
+        public BaseController(BaseManager<TType> mgr)
         {
-            return new string[] {"person controller1", "person controller2"};
+            this.mgr = mgr;
         }
+
     }
 }

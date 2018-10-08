@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using GoTFamilies.Managers;
+using GoTFamilies.Models.Data.Families;
+using GoTFamilies.Models.Data.Persons;
+using GoTFamilies.Models.Domain;
+using GoTFamilies.Models.Domain.Families;
+using GoTFamilies.Models.Domain.Persons;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -34,6 +40,17 @@ namespace GoTFamilies
                             builder=>builder.WithOrigins("http://localhost:3000")
                                             .AllowAnyMethod()
                                             .AllowAnyOrigin()));
+
+            //Dependency Injection : Each time I have an instance of
+            //BaseRepo<TType>, the respective Repo will be created.
+            services.AddTransient<BaseRepo<Person>, PersonRepo>();
+            services.AddTransient<BaseRepo<Family>, FamilyRepo>();                                            
+
+            //Dependency Injection : Each time I have an instance of
+            //BaseManager<TType>, the respective Manager will be created.
+            services.AddTransient<BaseManager<Person>, PersonManager>();
+            services.AddTransient<BaseManager<Family>, FamilyManager>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
